@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementApp", "TransportManagementApp\TransportManagementApp.csproj", "{700E5F23-1D00-4DBF-99DE-E3BB5719B34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportTest", "TransportTest\TransportTest.csproj", "{7DBDB24A-337F-494E-929C-D4713DE05490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700E5F23-1D00-4DBF-99DE-E3BB5719B34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700E5F23-1D00-4DBF-99DE-E3BB5719B34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700E5F23-1D00-4DBF-99DE-E3BB5719B34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700E5F23-1D00-4DBF-99DE-E3BB5719B34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBDB24A-337F-494E-929C-D4713DE05490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBDB24A-337F-494E-929C-D4713DE05490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBDB24A-337F-494E-929C-D4713DE05490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBDB24A-337F-494E-929C-D4713DE05490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {743D59F6-D266-4AD5-B186-F5A27157A7E4}
+	EndGlobalSection
+EndGlobal
