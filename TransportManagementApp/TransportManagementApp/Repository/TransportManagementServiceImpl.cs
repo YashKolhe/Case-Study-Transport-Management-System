@@ -161,7 +161,7 @@ namespace TransportManagementApp.Repository
         {
             using (SqlConnection sqlConnection = new SqlConnection(DbConnUtil.GetConnString())) ;
             {
-                cmd.CommandText = "Update Driver set TripID = @tripID";
+                cmd.CommandText = "Update Driver set TripID = @tripID where DriverID = @driverID";
                 cmd.Parameters.AddWithValue("@tripID", tripID);
                 cmd.Parameters.AddWithValue("@driverID", driverID);
                 cmd.Connection = sqlConnection;
